@@ -2,7 +2,61 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function moreThan5() {
+  return 
+}
 
+function isNewTopScore() {
+  return
+}
+
+function isInDanger() {
+  return 
+}
+
+function isCoasting() {
+  return
+}
+
+function isSucceeding() {
+  return
+}
+
+function isFailing() {
+  return
+}
+
+function isAcing() {
+  return
+}
+
+function isStudent() {
+  return
+}
+
+function isTeacher() {
+  return
+}
+
+function isAdmin() {
+  return
+}
+
+function isElementary(level) {
+  return level === "elementary";
+}
+
+function areDifferentPeople(person1, person2) {
+  return person1 !== person2;
+}
+//const result = areDifferentPeople
+function isMiddleSchoolTeacher(role, grade) {
+  return role === 'teacher' && grade >= 6 && grade <= 8;
+}
+
+function notAnElementarySchoolAdministrator(level, role) {
+  return level !== 'elementary' || role !== 'admin';
+}
 
 
 
